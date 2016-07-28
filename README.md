@@ -3,6 +3,9 @@
 `npm start`运行本地服务器 查看 默认会是 localhost:8080
 webpack -w  实时监控打包
 webpack -p 压缩文件打包
+
+
+进去先执行npm install 安装其所需的插件然后即可直接运行npm start
  目录说明/
   + package.json //npm配置文件 该文件中的scripts 参数定义用来配置快捷cmd命令
   + webpack.config.js //webpack配置
